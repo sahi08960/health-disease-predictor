@@ -3,3 +3,7 @@ joblib
 scikit-learn
 numpy
 pandas
+streamlit
+streamlit-authenticator
+bcrypt
+
