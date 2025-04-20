@@ -110,7 +110,7 @@ def login_section():
 def main_app():
     st.title(f"Welcome! {st.session_state.email}")
     st.write("Your diabetes prediction app content here...")
-    %%writefile app.py
+  
 import streamlit as st
 import pandas as pd
 import numpy as np
