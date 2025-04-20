@@ -111,11 +111,6 @@ def main_app():
     st.title(f"Welcome! {st.session_state.email}")
     st.write("Your diabetes prediction app content here...")
   
-import streamlit as st
-import pandas as pd
-import numpy as np
-import joblib
-
 # Load model
 model = joblib.load('diabetes_model.pkl')
 
